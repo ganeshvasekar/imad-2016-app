@@ -15,7 +15,7 @@ app.get('/page1',function (req, res) {
 });
 
 app.get('/page2',function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'page2.html'));
+  res.sendFile(path.join(page2.html'));
 });
 
 app.get('/ganesh',function (req, res) {
