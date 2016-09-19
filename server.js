@@ -14,6 +14,14 @@ app.get('/page1',function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page1.html'));
 });
 
+app.get('/page2',function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'page2.html'));
+});
+
+app.get('/ganesh',function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'ganesh.html'));
+});
+
 app.get('/',function(req, res){ res.sendFile(path.join(__dirname,'ui', 'page1.html'));
     
 });
