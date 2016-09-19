@@ -22,49 +22,32 @@ body {
 }
 
 
-element {
-}
-.navbar-inverse .navbar-brand {
-    color: #9d9d9d;
-}
-h1.navbar-brand {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-}
-.navbar-brand {
+.navbar-nav {
     float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+    margin: 0;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
-    color: #252525;
+.navbar-nav {
+    margin: 7.5px -15px;
 }
-h1, .h1 {
-    font-size: 36px;
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
-h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 20px;
+ul, ol {
+    margin-top: 0;
     margin-bottom: 10px;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
-}
-h1 {
-    margin: .67em 0;
-    font-size: 2em;
 }
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+.navbar-collapse.collapse {
+    visibility: visible !important;
+}
+.collapse {
+    visibility: hidden;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -85,3 +68,4 @@ html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
 }
+
