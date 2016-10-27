@@ -38,9 +38,6 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active {
-    background-color: #dddddd;
-}
 .text-big {
     font-size: 300%;
 }
