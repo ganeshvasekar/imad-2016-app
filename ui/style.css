@@ -8,7 +8,11 @@ body {
     text-align: center;
 }
 
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .text-big {
     font-size: 300%;
 }
