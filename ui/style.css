@@ -31,6 +31,9 @@ li a:hover {
     background-color: #111;
 }
 
+.active {
+    background-color: #4CAF50;
+}
 .text-big {
     font-size: 300%;
 }
