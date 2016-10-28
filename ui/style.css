@@ -34,6 +34,7 @@ ul {
 
 li {
     float: left;
+    margin: 0 0 10px 10px;
 }
 li: last-child {
     border-left: none;
