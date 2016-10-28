@@ -32,6 +32,9 @@ ul {
     width: 100%;
 }
 
+li {
+    float: left;
+}
 li: last-child {
     border-left: none;
 }
