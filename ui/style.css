@@ -33,7 +33,7 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 li: last-child {
     border-left: none;
