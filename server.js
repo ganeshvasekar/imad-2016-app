@@ -11,18 +11,24 @@ var config = {
 };
 
 var pool = new pool(config);
-app.get('/test-db', function (req, reg){
+app.get('/ article/:articleName', function (req, reg){
     //make a select request
     // return respond with result
-    pool.query( 'SELECT * FROM test', function (err, result)
+    pool.query( "SELECT * FROM article WHERE title ='" + req.params.articleName +"'", function (err, result)
     {
         if(err){
             res.status(500).send(err.toString());
         }
             else{
-                res.send(JSON.stringify(result.rows));
+                if(result.row.length ===0){
+                    res.status(404).send('article Not found');
+                }
+                else{
+                    var articleData = result.rows[0];
+                    res.send(createTemplate(articleData));
+                }
             }
-    })
+    });
 });
 var app = express();
 app.use(morgan('combined'));
