@@ -26,6 +26,12 @@ body {
     column-count: 2;
     -ms-column-count:2
 }
+.gnv {
+    font-weight: bold;
+     color: red;
+    font-family: times new roman;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
