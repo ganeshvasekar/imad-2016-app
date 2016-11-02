@@ -5,15 +5,16 @@ body {
 }
 
 .icon-bar {
-    height: 100%;
-    width: 90px;
+    width: 100%;
     text-align: center;
     background-color: #555;
+    overflow: auto;
 }
 
 .icon-bar a {
-    padding: 16px;
-    display: block;
+    width: 20%;
+    padding: 12px 0;
+    float: left;
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
@@ -24,10 +25,7 @@ body {
 }
 
 .active {
-    background-color: #4CAF50;
-}
-.center {
-    text-align: center;
+    background-color: #4CAF50 ;
 }
 
 .button {
