@@ -109,6 +109,11 @@ div {
     margin: 0 auto;
     color: black;
     font-family: times new roman;
+    padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
     
 }
 
