@@ -51,7 +51,7 @@ li {
     
 }
 li: last-child {
-    border-left: none;
+    border-left: 50px;
 }
 li a {
     display: block;
