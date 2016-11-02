@@ -104,6 +104,13 @@ div {
 .bold {
     font-weight: bold;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+    font-family: times new roman;
+    padding:0.01em 16px
+}
 
 .containr {
     padding-right: 15px;
@@ -118,12 +125,4 @@ div {
 .img-medium {
   
     height: 300px;
-}
-
-.container {
-  
-    max-width: 1200px;
-    margin: 0 auto;
-    color: black;
-    font-family: times new roman;
 }
