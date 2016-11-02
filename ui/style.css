@@ -64,7 +64,7 @@ li a {
 .button2 {border-radius: 50%;}
 
 li a:hover {
-    background-color: #f3f3f3;
+    background-color: #228B22;
 }
 input[type=text], select {
     width: 100%;
