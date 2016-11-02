@@ -47,7 +47,8 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
+    margin: 0;
     
 }
 li: last-child {
