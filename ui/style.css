@@ -21,7 +21,7 @@ body {margin:0;}
 }
 .dropdown-content a {
    color : red; 
-   padding: 12px 16px;
+   padding: 12px 10px;
    text-decoration: none;
    display: block;
 }
