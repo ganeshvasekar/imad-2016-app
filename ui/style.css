@@ -4,7 +4,12 @@
 }
 .dropdown-content {
     display : none;
+    position : absolute;
+    right : 0;
     
+}
+.dropdown-content a {
+   color : black; 
 }
 
 body {
