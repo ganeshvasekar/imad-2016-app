@@ -1,14 +1,14 @@
 body {margin:0;}
 .g {
     padding:20px;
-    margin-top:50px;
+    margin-top:40px;
     background-color:#D3D3D3;
     height:1500px;
 }
 
 .dropdown {
     position: fixed;
-    top : 40px;
+    top : 50px;
     display: inline-block;
 }
 .dropdown-content {
