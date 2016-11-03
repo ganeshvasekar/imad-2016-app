@@ -26,7 +26,7 @@ app.get('/Contact',function (req, res) {
 });
 
 app.get('/page3',function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'page3.html'));
+  res.sendFile(path.join(__dirname, 'page3.html'));
 });
 
 app.get('/',function(req, res){ res.sendFile(path.join(__dirname,'ui', 'page1.html'));
