@@ -64,7 +64,7 @@ li a {
     text-decoration: none;
 }
 .button1 {border-radius: 12px;}
-.button2 {border-radius: 50%;}
+.button2 {border-radius: 80%;}
 
 li a:hover {
     background-color: #228B22;
