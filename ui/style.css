@@ -15,6 +15,9 @@
    display: block;
 }
 .dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .button {
+    background-color: #3e8e41;
+}
 body {
     font-family: sans-serif;
     background-color: white;
