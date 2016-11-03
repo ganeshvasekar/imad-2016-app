@@ -43,7 +43,7 @@ app.get('/ui/g.png', function (req, res) {
 });
 
 app.get('IMG_20160124_134615.jpg', function (req, res) {
-  res.sendFile(path.join( 'IMG_20160124_134615.jpg'));
+  res.sendFile(path.join(__dirname, 'IMG_20160124_134615.jpg'));
 });
 
 
