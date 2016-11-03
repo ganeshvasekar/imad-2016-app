@@ -29,8 +29,7 @@
 }
 body {
     font-family: sans-serif;
-    background-color: white;
-    margin-top: 75px;
+    background-color: white;;
 }
 .center{
     text-align: center;
@@ -144,7 +143,10 @@ div {
     margin-right: auto;
     margin-left: auto;
 }
-
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
 .img-medium {
   
     height: 300px;
