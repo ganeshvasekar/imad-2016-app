@@ -28,8 +28,7 @@
     background-color: #3e8e41;
 }
 body {
-    background-color: white;
-    margin-top: 75px;
+ margin:0;
 }
 .center{
     text-align: center;
