@@ -29,6 +29,10 @@ app.get('/page3',function (req, res) {
   res.sendFile(path.join(__dirname, 'page3.html'));
 });
 
+app.get('/page4',function (req, res) {
+  res.sendFile(path.join(__dirname, 'page4.html'));
+});
+
 app.get('/',function(req, res){ res.sendFile(path.join(__dirname,'ui', 'page1.html'));
     
 });
