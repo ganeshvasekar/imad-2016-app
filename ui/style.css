@@ -64,9 +64,9 @@ body {
 }
 ul {
     list-style-type: none;
- 
+    margin: 0;
     
-    overflow: hidden;
+   
    background-color: #333; 
     position: fixed;
     top: 20px;
