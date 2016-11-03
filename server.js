@@ -25,6 +25,9 @@ app.get('/Contact',function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Contact.html'));
 });
 
+app.get('/page3',function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'page3.html'));
+});
 
 app.get('/',function(req, res){ res.sendFile(path.join(__dirname,'ui', 'page1.html'));
     
