@@ -1,13 +1,12 @@
 .dropdown {
     position: fixed;
-    top : 0;
+    top : 50px;
     display: inline-block;
 }
 .dropdown-content {
     display : none;
     position : absolute;
     right : 0;
-    background-color:#FF0000;
     
 }
 .dropdown-content a {
@@ -17,9 +16,6 @@
    display: block;
 }
 .dropdown-content a:hover {background-color: #FF0000}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 .dropdown:hover .button {
     background-color: #3e8e41;
 }
