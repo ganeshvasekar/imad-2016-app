@@ -29,7 +29,8 @@
 }
 body {
     font-family: sans-serif;
-    background-color: white;;
+    background-color: white;
+    margin-top: 75px;
 }
 .center{
     text-align: center;
@@ -62,7 +63,7 @@ body {
     height : 500px;
 }
 ul {
-    list-style-type: none;
+
     margin: 0;
     
    
