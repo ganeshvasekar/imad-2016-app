@@ -131,7 +131,6 @@ div {
     font-weight: bold;
 }
 .container {
-    max-width: 0;
     margin: 0 auto;
     color: black;
     font-family: times new roman;
