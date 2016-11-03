@@ -2,6 +2,11 @@
     position: fixed;
     display: inline-block;
 }
+.dropdown-content {
+    display : none;
+    position : absolute;
+    
+}
 
 body {
     font-family: sans-serif;
