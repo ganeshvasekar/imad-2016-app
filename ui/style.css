@@ -5,7 +5,7 @@
 .dropdown-content {
     display : none;
     position : absolute;
-    
+    right : 0;
 }
 
 body {
