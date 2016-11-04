@@ -84,7 +84,7 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: #f58c77;
 }
 .button1 {border-radius: 12px;}
 .button2 {border-radius: 80%;}
