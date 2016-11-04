@@ -5,22 +5,7 @@ body {margin:0;}
     background-color:#FFFFFF;
     height:1500px;
 }
-.mobile-manu{
-   display: block; 
-   width :30px;
-   height: 34px;
-   border-top:2px solid #fff;
-   border-left:2px solid #fff;
-   border-right:2px solid #fff;
-   border-top-left-radius:6px ;
-   border-top-right-radius:6px ;
-   background : #a6430a url(http://www.meystyle.com/mobile/images/mobile_menu_button.png) no-repeat 4px 4px;
-   Position:absolute; top: 64px; left:10px;
-   cursor: pointer;
-}
-.mobile-manu.selected{
-    background-position:4px -26px;
-}
+
 .dropdown {
     position: fixed;
     top : 0;
