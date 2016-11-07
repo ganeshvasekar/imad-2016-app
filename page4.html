@@ -177,7 +177,7 @@
 				}
         </style>
     </head>
-    <body>
+     <body>
         <header>
             <h1 class="v">
                 Logo
@@ -192,67 +192,70 @@
                     <li><a href="Ganesh">PAGE5</a></li>
                 </ul>
             </nav>
-            <a id= "i-nav"  class=" h w3-xlarge" >&#9776;</a>
+            <a id= "i-nav" class=" h w3-xlarge" >&#9776;</a>
+            
            
         </header>
-        <div class= "g">
-            
+		 <div class= "g">
+        
            <div class="w3-content w3-section" style="max-width:1500px">
-                <img class="mySlides" src="ui/1.jpg" style="width:100%; height:700px" /> 
-                <div class=" w3-display-middle w3-large w3-black">
+                <img class="mySlides" src="image/1.jpg" style="width:100%; height:700px" /> 
+				  <div class=" w3-display-middle w3-large w3-black">
 						<h3> This is My first website. I like to build this website </h3><span></span>
 						<h3> It is possible because of IMAD course</h3><span></span>
 						<h2> -Ganesh Vasekar</h2>
 						
 						</div>
-                 <img class="mySlides" src="http://www.planwallpaper.com/static/images/6960608-bird-bee-eater-nature-flowers.jpg" style="width:100% ; height:700px" /> 
-                    <img class="mySlides" src="http://wallpapersonthe.net/wallpapers/b/1920x1080/1920x1080-nature_flowers-3004.jpg" style="width:100% ; height:700px" /> 
-                    
+                 <img class="mySlides" src="image/2.jpg" style="width:100% ; height:700px" /> 
+                    <img class="mySlides" src="image/3.jpg" style="width:100% ; height:700px" /> 
                     </div>
-                    <div class="c">
+					<div class="c">
             <div class="center">
 			<h2> Welcome To This Website</h2>
 			</div>
-	            <div class="message-body">
-									<img src= "ui/g.png" class = "img-medium pull-left"/>
-						       		<p>Im A Lonely Road Of Broken Dreams
-                                    
-                                    Its A Boulevard That
-                                    Im Searching For
-                                    
-                                    These Stars Are All
-                                    So Dull
-                                    
-                                    Its The Moon That Im
-                                    Searching For
-                                    
-                                    Happiness Is So Angry
-                                    At Me
-                                    
-                                    Its Life That Im
-                                    Searching For
-                                    
-                                    There Is A Crowd
-                                    Around Me At All Times
-                                    
-                                    Its a Friend That Im
-                                    Searching For
-                                    
-                                    My Life Is Just Like
-                                    Path
-                                    
-                                    Its A Destination That
-                                    Im Searching For
-                                    
-                                    Dont Know What Is It
-                                    That Ive Lost
-                                    
-                                    May Be Its ME That
-                                    Im Searching For !!  </p>
-                                    						     	 
+			<div class="message-body">
+									<img src= "image/g.png" class = "img-medium pull-left"/>
+										<p>Im A Lonely Road Of Broken Dreams
+
+											Its A Boulevard That
+											Im Searching For
+
+											These Stars Are All
+											So Dull
+
+											Its The Moon That Im
+											Searching For
+
+											Happiness Is So Angry
+											At Me
+
+											Its Life That Im
+											Searching For
+
+											There Is A Crowd
+											Around Me At All Times
+
+											Its a Friend That Im
+											Searching For
+
+											My Life Is Just Like
+											Path
+
+											Its A Destination That
+											Im Searching For
+
+											Dont Know What Is It
+											That Ive Lost
+
+											May Be Its ME That
+											Im Searching For !!  
+									   </p>
+																		 
 	             
 									<h1 class = "gnv"> Ganesh Vasekar</h1>
 										<p>
+	                 
+	               
 									<h2> Presonal</h2>
 										<hr>
 								<div>
@@ -264,28 +267,12 @@
 									<div>
 									I am working In Kirloskar Pnumatic Company Limited and I'm in great intrested in this course.
 									</div>
-						
-                      </div>
+							</div>
                       </div>
         </div>
-        
-             <script>
-            var myIndex = 0;
-            carousel();
-            
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                   x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 3000); // Change image every 3 seconds
-            }
-            </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
        <script>
            $(document).ready(function(){
@@ -295,6 +282,23 @@
                 
             });
        </script>
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+       
         
     </body>
 </html>
