@@ -37,9 +37,3 @@
 function myFunction() {
     document.getElementById("myForm").reset();
 }
-  (document).ready(function(){
-                ('#i-nav').click(function(){
-                   // $('ul').toggleClass('show');
-                   alert('hello');
-                });
-            });
