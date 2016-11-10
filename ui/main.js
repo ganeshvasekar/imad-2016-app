@@ -1,14 +1,10 @@
 function loadLoginForm () {
     var loginHtml = `
-        <h3>Login to this Page</h3>
+        <h3>Login/Register to this Page</h3>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" />
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
-        <h3>Register to this Page</h3>
-        <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password" placeholder="password"/>
-        <input type="text" id="email" placeholder="email"/>
         <input type="submit" id="register_btn" value="Register" />
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
@@ -73,13 +69,11 @@ function loadLoginForm () {
         // Make the request
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
-        var email = document.getElementById('email').value;
         console.log(username);
         console.log(password);
-        console.log(email);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({username: username, password: password, email: email}));  
+        request.send(JSON.stringify({username: username, password: password}));  
         register.value = 'Registering...';
     
     };
