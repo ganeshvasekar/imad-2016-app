@@ -1,10 +1,16 @@
 function loadLoginForm () {
     var loginHtml = `
-        <h3>Login/Register to this Page</h3>
+        <h3>Login to this Page</h3>
         <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password" />
+        <input type="password" id="password" placeholder="password"/>
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
+        <hr>
+        <h3>Register to this Page</h3>
+        <input type="text" id="username" placeholder="username" />
+        <input type="password" id="password" placeholder="password"/>
+        <input type="text" id="email" placeholder="email" />
+        <br/><br/>
         <input type="submit" id="register_btn" value="Register" />
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
