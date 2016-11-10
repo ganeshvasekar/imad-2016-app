@@ -7,8 +7,8 @@ function loadLoginForm () {
         <input type="submit" id="login_btn" value="Login" />
         <h3>Register to this Page</h3>
         <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password" laceholder="password"/>
-        <input type="text" id="email" laceholder="email"/>
+        <input type="password" id="password" placeholder="password"/>
+        <input type="text" id="email" placeholder="email"/>
         <input type="submit" id="register_btn" value="Register" />
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
