@@ -173,7 +173,8 @@
 				.alogin {
                    padding-left:100px;
                  height:400px;
-}
+                 width:70%;
+            }
             }
        .message-body {
 					font-size: 20px;
