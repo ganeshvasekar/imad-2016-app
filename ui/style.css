@@ -25,10 +25,10 @@
 }
 .alogin {
     
-    padding-top: 10px;
+    padding-top: 0;
     padding-right: 30px;
     padding-bottom: 10px;
-    padding-left: 400px;
+    padding-left: 450px;
      background-color:#38ACEC;
  height:300px;
 }
@@ -170,7 +170,7 @@
 				height: 1200px;
 				}
 				.alogin {
-                   padding:0;
+                   padding:30px;
                  height:400px;
 }
             }
