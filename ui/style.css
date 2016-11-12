@@ -24,14 +24,9 @@
  height:400px;
 }
 .alogin {
-    
-    padding-top: 0;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 450px;
      background-color:lightgrey;
- height:300px;
-}
+    height:300px;
+    }
 .h{
 	text-align: center;
 	color: #fff;
@@ -171,7 +166,6 @@
 				height: 1000px;
 				}
 				.alogin {
-                padding:1px;
                  height:400px;
             }
             }
