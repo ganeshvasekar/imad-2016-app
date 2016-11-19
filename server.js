@@ -231,11 +231,6 @@ app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
-
-app.get('/page1',function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'page1.html'));
-});
-
 app.get('/page2',function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page2.html'));
 });
