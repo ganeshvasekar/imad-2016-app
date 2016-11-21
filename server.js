@@ -38,10 +38,23 @@ function createTemplate (data) {
           <link href="/ui/style.css" rel="stylesheet" />
       </head> 
       <body>
-          <div class="container">
-              <div>
-                  <a href="/">Home</a>
-              </div>
+      <header>
+            <h1 class="alogo">
+                IMAD APP
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="Page2">About Me</a></li>
+                    <li><a href="Page3">LOGIN</a></li>
+                    <li><a href="Page4">PAGE4</a></li>
+                    <li><a href="Contact">Contact Me</a></li>
+                    <li><a href="logout">Logout</a></li>
+                </ul>
+            </nav>
+            <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
+        </header>
+          <div class="g">
               <hr/>
               <h3>
                   ${heading}
