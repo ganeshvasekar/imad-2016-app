@@ -47,7 +47,16 @@ function createTemplate (data) {
                 <ul>
                     <li><a href="/">HOME</a></li>
                 </ul>
-                <li><a href="/page3">Logout</a></li>
+                
+             
+    function loadLoggedInUser (username) {
+    var loginArea = document.getElementById('login_area');
+    loginArea.innerHTML = `
+         
+       <li><a href="/logout">Logout</a></li>
+    `;
+}
+
             </nav>
             <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
         </header>
