@@ -47,6 +47,7 @@ function createTemplate (data) {
                 <ul>
                     <li><a href="/">HOME</a></li>
                 </ul>
+                <li><a href="/page3">Logout</a></li>
             </nav>
             <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
         </header>
