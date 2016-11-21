@@ -234,6 +234,6 @@ input[type=submit]:hover {
 footer {
     background: #aaa;
     color:white;
-    height:50px;
-    
+    height:16px;
+    padding:25px;
 }
