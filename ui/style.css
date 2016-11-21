@@ -227,3 +227,6 @@ input[type=submit]:hover {
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
+.articlemarg{
+    margin:10px;
+}
