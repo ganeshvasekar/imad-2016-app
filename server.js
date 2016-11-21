@@ -45,7 +45,6 @@ function createTemplate (data) {
             <nav>
                 <ul>
                     <li><a href="/">HOME</a></li>
-                    <a style= "color: white" href="/logout">Logout</a>
                 </ul>
             </nav>
             <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
