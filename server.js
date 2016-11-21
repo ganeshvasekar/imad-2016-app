@@ -55,6 +55,7 @@ function createTemplate (data) {
         </header>
           <div style= "padding-right:40px; padding-left:40px; background-color:#FFFFFF; ">
               <hr/>
+              <br/>
               <h3>
                   ${heading}
               </h3>
