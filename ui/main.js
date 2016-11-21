@@ -1,8 +1,8 @@
 function loadLoginForm () {
     var loginHtml = `
-        <h3 style="padding:20px;">Login/Register to this Page</h3>
+        <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password"  placeholder="password"/>
+        <input type="password" id="password" />
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
@@ -83,8 +83,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
-        <h2> Welcome to the Website<h2>
-        <a href="/Logout">Logout</a>
+        <a href="/logout">Logout</a>
     `;
 }
 
@@ -116,13 +115,13 @@ function loadArticles () {
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li>
-                    <a href="/page1/${articleData[i].title}">${articleData[i].heading}</a>
+                    <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
                     (${articleData[i].date.split('T')[0]})</li>`;
                 }
-                content += "</ul>";
+                content += "</ul>"
                 articles.innerHTML = content;
             } else {
-                articles.innerHTML('Oops! Could not load all articles!');
+                articles.innerHTML('Oops! Could not load all articles!')
             }
         }
     };
@@ -130,6 +129,7 @@ function loadArticles () {
     request.open('GET', '/get-articles', true);
     request.send(null);
 }
+
 
 // The first thing to do is to check if the user is logged in!
 loadLogin();
