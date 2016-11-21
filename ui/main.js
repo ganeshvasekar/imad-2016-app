@@ -180,12 +180,7 @@ loadLogin();
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
 
- $(document).ready(function(){
-                $('#i-nav').click(function(){
-                   $('ul').toggleClass('show');
-                });
-                
-            });
+
 
 var myIndex = 0;
 carousel();
