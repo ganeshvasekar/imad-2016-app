@@ -53,7 +53,7 @@ function createTemplate (data) {
             </nav>
             <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
         </header>
-          <div class="g">
+          <div style= "padding-right:40px; padding-left:40px; background-color:#FFFFFF; ">
               <hr/>
               <h3>
                   ${heading}
