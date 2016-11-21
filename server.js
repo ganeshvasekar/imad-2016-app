@@ -65,6 +65,8 @@ function createTemplate (data) {
                 ${content}
               </div>
               <hr/>
+              <br/>
+              <br/>
               <h4>Comments</h4>
               <div id="comment_form">
               </div>
