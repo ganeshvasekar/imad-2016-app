@@ -49,7 +49,6 @@ function createTemplate (data) {
                     <li><a href="Page3">LOGIN</a></li>
                     <li><a href="Page4">PAGE4</a></li>
                     <li><a href="Contact">Contact Me</a></li>
-                    <li><a href="logout">Logout</a></li>
                 </ul>
             </nav>
             <img id= "i-nav" class=" h w3-xlarge" src="ui/manu.png" /> 
@@ -73,6 +72,16 @@ function createTemplate (data) {
                 <center>Loading comments...</center>
               </div>
           </div>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+           <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+           <script>
+           $(document).ready(function(){
+                $('#i-nav').click(function(){
+                   $('ul').toggleClass('show');
+                });
+                
+            });
+       </script>
           <script type="text/javascript" src="/ui/article.js"></script>
       </body>
     </html>
