@@ -39,6 +39,7 @@ function createTemplate (data) {
       </head> 
       <body>
       <header>
+      <div>
             <h1 class="alogo">
                 IMAD APP
             </h1>
@@ -71,7 +72,7 @@ function createTemplate (data) {
               </div>
                 </div>
               <footer class= "center" >Created by Ganesh Vasekar</footer>
-        
+        <div>
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
            <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
            <script>
