@@ -230,3 +230,5 @@ input[type=submit]:hover {
 .articlemarg{
     margin:20px;
 }
+
+footer {background: #aaa;color:white;}
