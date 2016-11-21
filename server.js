@@ -5,6 +5,7 @@ var Pool = require('pg').Pool;
 var crypto = require('crypto');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+var currentArticleTitle = window.location.pathname.split('/')[2];
 
 
 var config = {
