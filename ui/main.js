@@ -130,6 +130,8 @@ function loadArticles () {
     request.send(null);
 }
 
+var currentArticleTitle = window.location.pathname.split('/')[2];
+
 
 // The first thing to do is to check if the user is logged in!
 loadLogin();
